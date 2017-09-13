@@ -27,10 +27,10 @@ Configuration sample:
 
 Field                   | Description
 ------------------------|------------
-**accessory**           | Must always be "GarageDoorImp". (required)
+**accessory**           | Must always be "GarageDoorImp" (required)
 **name**                | Name of the Garage Door
-**url**                 | url to respond to msg=check|open|close (required)
-**sharedKey**           | 32 character alphanumeric shared key (url?apiKey=sharedKey&msg=check|open|close
+**url**                 | url to respond to &msg=check|open|close (required)
+**sharedKey**           | 32 character alphanumeric shared secret ?apiKey=sharedKey (required)
 **status_update_delay** | Time to delay updating state to ensure state updated (defaults to 15 seconds)
 
 The open, close, and state commands should return an encoded json object with 2 values with the keys "current" and "target". Accepted current values are: OPEN, CLOSED, OPENING, CLOSING, STOPPED
