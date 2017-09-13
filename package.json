@@ -21,5 +21,7 @@
     "type": "git",
     "url": "git://github.com/na/homebridge-imp-garagedoor.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "https": "^8.5.0"
+  }
 }
