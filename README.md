@@ -15,7 +15,7 @@ Configuration sample:
   {
     "accessory": "GarageDoorImp",
     "name": "Garage Door",
-    "url": "https://agent.electricimp.com/Homf6N8jHm9F",
+    "url": "https://agent.electricimp.com/HOmf6N8jHm9F",
     "sharedKey": "asdfghjklpoiuytrewqASDFGHJKL0987",
     "status_update_delay": 15
   }
